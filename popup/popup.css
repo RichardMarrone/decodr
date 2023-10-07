@@ -1,0 +1,32 @@
+#main-container {
+    width: 200px;
+    min-height: 175px;
+    margin-bottom: 0;
+}
+
+#base64-text, #plain-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#base64-text p, #plain-text p {
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+#base64-text .input, #plain-text .input {
+    overflow: hidden;
+    width: 175px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+#base64-text .input:focus, #plain-text .input:focus {
+    overflow: auto;
+}
+
+#error-container p {
+    color: red;
+}
